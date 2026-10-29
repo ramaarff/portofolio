@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>M. Rama Arief Akbar | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of M. Rama Arief Akbar — Full Stack Engineer & Tech Innovator. Showcasing projects, experience, achievements, and contact information.">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary-fixed-dim": "#7bd0ff",
+            "on-tertiary-container": "#00457e",
+            "secondary": "#b4c5ff",
+            "on-surface-variant": "#bdc8d1",
+            "on-secondary-container": "#cdd7ff",
+            "surface-container": "#1d1f26",
+            "surface": "#11131a",
+            "inverse-surface": "#e1e2ec",
+            "on-secondary-fixed": "#00174b",
+            "primary": "#8ed5ff",
+            "surface-bright": "#373941",
+            "on-secondary-fixed-variant": "#003ea8",
+            "inverse-primary": "#00668a",
+            "on-tertiary-fixed": "#001c39",
+            "on-secondary": "#002a78",
+            "surface-variant": "#32353c",
+            "secondary-container": "#0053db",
+            "tertiary-fixed-dim": "#a4c9ff",
+            "on-surface": "#e1e2ec",
+            "error-container": "#93000a",
+            "secondary-fixed-dim": "#b4c5ff",
+            "background": "#11131a",
+            "surface-tint": "#7bd0ff",
+            "on-tertiary-fixed-variant": "#004883",
+            "on-tertiary": "#00315d",
+            "on-primary-fixed": "#001e2c",
+            "primary-container": "#38bdf8",
+            "on-background": "#e1e2ec",
+            "secondary-fixed": "#dbe1ff",
+            "tertiary-fixed": "#d4e3ff",
+            "on-error-container": "#ffdad6",
+            "surface-container-highest": "#32353c",
+            "inverse-on-surface": "#2e3038",
+            "tertiary": "#afcfff",
+            "primary-fixed": "#c4e7ff",
+            "on-error": "#690005",
+            "on-primary-container": "#004965",
+            "surface-container-low": "#191b22",
+            "outline": "#87929a",
+            "outline-variant": "#3e484f",
+            "on-primary-fixed-variant": "#004c69",
+            "surface-dim": "#11131a",
+            "tertiary-container": "#7bb4ff",
+            "on-primary": "#00354a",
+            "surface-container-lowest": "#0b0e15",
+            "error": "#ffb4ab",
+            "surface-container-high": "#272a31"
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          },
+          spacing: {
+            gutter: "1.5rem",
+            "space-xs": "0.25rem",
+            "margin-mobile": "1.25rem",
+            "space-sm": "0.5rem",
+            margin: "3rem",
+            "gutter-mobile": "1rem",
+            "space-lg": "1.5rem",
+            "space-md": "1rem",
+            "space-xl": "2.5rem"
+          },
+          fontFamily: {
+            "label-sm": ["JetBrains Mono"],
+            "headline-xl-mobile": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "headline-sm": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "headline-xl": ["Plus Jakarta Sans"],
+            "label-md": ["JetBrains Mono"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"]
+          },
+          fontSize: {
+            "label-sm": ["11px", { lineHeight: "16px", letterSpacing: "0.06em", fontWeight: "500" }],
+            "headline-xl-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "800" }],
+            "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.025em", fontWeight: "700" }],
+            "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "600" }],
+            "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.005em", fontWeight: "400" }],
+            "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "-0.005em", fontWeight: "400" }],
+            "headline-xl": ["56px", { lineHeight: "64px", letterSpacing: "-0.03em", fontWeight: "800" }],
+            "label-md": ["13px", { lineHeight: "18px", letterSpacing: "0.04em", fontWeight: "500" }],
+            "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "400" }],
+            "headline-lg-mobile": ["28px", { lineHeight: "36px", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "headline-md": ["28px", { lineHeight: "36px", letterSpacing: "-0.015em", fontWeight: "600" }]
+          },
+          keyframes: {
+            "fade-in-up": {
+              "0%": { opacity: "0", transform: "translateY(24px)" },
+              "100%": { opacity: "1", transform: "translateY(0)" }
+            },
+            "pulse-glow": {
+              "0%, 100%": { boxShadow: "0 0 20px rgba(56,189,248,0.15)" },
+              "50%": { boxShadow: "0 0 40px rgba(56,189,248,0.35)" }
+            }
+          },
+          animation: {
+            "fade-in-up": "fade-in-up 0.6s ease-out both",
+            "pulse-glow": "pulse-glow 3s ease-in-out infinite"
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @layer base {
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        overscroll-behavior: none;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    .bg-dot-matrix {
+      background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+
+    /* Section visibility */
+    .page-section {
+      display: none;
+    }
+
+    .page-section.active {
+      display: block;
+    }
+
+    /* Smooth transition for sections */
+    .page-section.active {
+      animation: fade-in-up 0.5s ease-out both;
+    }
+
+    @keyframes fade-in-up {
+      0% {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Tab filter active styles */
+    .filter-tab.active {
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(0, 83, 219, 0.3));
+      color: #8ed5ff;
+      border-color: rgba(56, 189, 248, 0.5);
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.2);
+    }
+
+    /* Image placeholder styling */
+    .img-placeholder {
+      background: linear-gradient(135deg, #1d1f26 0%, #272a31 50%, #1d1f26 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #87929a;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      text-align: center;
+      border: 1px dashed #3e484f;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .img-placeholder::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 40%, rgba(56, 189, 248, 0.06) 0%, transparent 60%);
+    }
+
+    .img-placeholder span {
+      position: relative;
+      z-index: 1;
+      padding: 8px;
+      line-height: 1.4;
+    }
+
+    /* Card hover effects */
+    .exp-card {
+      transition: all 0.3s ease;
+      border: 1px solid transparent;
+    }
+
+    .exp-card:hover {
+      border-color: rgba(56, 189, 248, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 20px rgba(56, 189, 248, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .project-card {
+      transition: all 0.4s ease;
+      border: 1px solid rgba(62, 72, 79, 0.5);
+    }
+
+    .project-card:hover {
+      border-color: rgba(56, 189, 248, 0.3);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 24px rgba(56, 189, 248, 0.1);
+      transform: translateY(-4px);
+    }
+
+    .cert-card {
+      transition: all 0.3s ease;
+      border: 1px solid rgba(62, 72, 79, 0.4);
+    }
+
+    .cert-card:hover {
+      border-color: rgba(56, 189, 248, 0.3);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 16px rgba(56, 189, 248, 0.1);
+    }
+
+    .contact-card {
+      transition: all 0.3s ease;
+      border: 1px solid rgba(62, 72, 79, 0.4);
+    }
+
+    .contact-card:hover {
+      border-color: rgba(56, 189, 248, 0.25);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Tech tag pill */
+    .tech-tag {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      padding: 4px 12px;
+      border-radius: 6px;
+      background: rgba(30, 33, 41, 0.8);
+      border: 1px solid rgba(62, 72, 79, 0.6);
+      color: #bdc8d1;
+      transition: all 0.2s ease;
+    }
+
+    .tech-tag:hover {
+      border-color: rgba(56, 189, 248, 0.4);
+      color: #8ed5ff;
+    }
+
+    /* Status badge */
+    .status-badge {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .status-badge::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.4;
+      }
+    }
+  </style>
+</head>
+
+<body
+  class="bg-surface-container-lowest text-on-surface font-body-md text-body-md min-h-screen relative selection:bg-primary-container selection:text-on-primary-container">
+
+  <!-- Global Background Effects -->
+
+  <div
+    class="fixed top-[-20%] left-1/2 -translate-x-1/2 w-[900px] h-[500px] rounded-full bg-secondary-container/20 blur-[140px] pointer-events-none z-0">
+  </div>
+
+  <!-- ============================================== -->
+  <!-- HEADER / NAVIGATION -->
+  <!-- ============================================== -->
+  <header
+    class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_16px_rgba(0,0,0,0.4)]">
+    <div class="h-20 max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-space-md">
+      <!-- Left: Name & Title -->
+      <div class="flex items-center gap-space-md">
+        <!-- Profile avatar/icon - small 32x32 -->
+        <div
+          class="w-8 h-8 rounded-lg bg-primary-container/20 border border-primary-container/40 flex items-center justify-center font-bold text-xs text-primary flex-shrink-0">
+          RA
+        </div>
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">M. Rama Arief Akbar</span>
+          <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Machine Learning &amp;
+            Internet of Things Enthusiast</span>
+        </div>
+      </div>
+
+      <!-- Center: Navigation Tabs -->
+      <nav id="main-nav"
+        class="hidden lg:flex items-center gap-space-xs p-1 rounded-xl bg-surface-container-low/70 backdrop-blur-md">
+        <a class="nav-link px-space-md py-space-sm transition-all cursor-pointer bg-primary-container text-on-primary-container font-medium rounded-lg shadow-[0_0_12px_rgba(56,189,248,0.3)]"
+          data-section="main">Main</a>
+        <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer font-body-sm text-body-sm rounded-lg"
+          data-section="experience">Experience</a>
+        <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer font-body-sm text-body-sm rounded-lg"
+          data-section="projects">Projects</a>
+        <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer font-body-sm text-body-sm rounded-lg"
+          data-section="achievements">Achievements</a>
+        <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer font-body-sm text-body-sm rounded-lg"
+          data-section="contact">Contact</a>
+      </nav>
+
+      <!-- Right: Status + Profile -->
+      <div class="flex items-center gap-space-md">
+        <span
+          class="hidden md:inline-flex status-badge text-green-400 bg-green-400/10 border border-green-400/20">AVAILABLE
+          FOR HIRE</span>
+        <!-- Profile photo - small circle 32x32 -->
+        <div
+          class="w-8 h-8 rounded-full overflow-hidden shadow-[0_0_10px_rgba(56,189,248,0.25)] flex-shrink-0 border border-primary/40">
+          <img src="assets/profilepict.jpeg" alt="M. Rama Arief Akbar" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-nav" class="lg:hidden flex items-center gap-1 px-gutter pb-3 overflow-x-auto">
+      <a class="nav-link px-space-md py-space-sm transition-all cursor-pointer bg-primary-container text-on-primary-container font-medium rounded-lg shadow-[0_0_12px_rgba(56,189,248,0.3)] whitespace-nowrap text-sm"
+        data-section="main">Main</a>
+      <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer text-sm whitespace-nowrap rounded-lg"
+        data-section="experience">Experience</a>
+      <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer text-sm whitespace-nowrap rounded-lg"
+        data-section="projects">Projects</a>
+      <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer text-sm whitespace-nowrap rounded-lg"
+        data-section="achievements">Achievements</a>
+      <a class="nav-link px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-all cursor-pointer text-sm whitespace-nowrap rounded-lg"
+        data-section="contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- ============================================== -->
+  <!-- MAIN CONTENT AREA -->
+  <!-- ============================================== -->
+  <main class="relative z-10 w-full pt-20 lg:pt-20 max-w-[1280px] mx-auto px-gutter min-h-[calc(100vh-140px)]">
+
+    <!-- ============================================== -->
+    <!-- SECTION: MAIN (Hero) -->
+    <!-- ============================================== -->
+    <section id="section-main" class="page-section active">
+      <div class="flex flex-col w-full relative">
+        <!-- Immersive Space Background with Aurora Shader -->
+        <div class="relative w-full overflow-hidden rounded-3xl bg-surface-container-lowest my-space-md shadow-2xl">
+
+
+          <!-- Aurora Shader Background -->
+          <div class="absolute inset-0 w-full h-full opacity-65 pointer-events-none" style="display:block;">
+            <canvas id="shader-canvas-ANIMATION_2" style="display:block;width:100%;height:100%"></canvas>
+            <script>
+                (function () {
+                  const canvas = document.getElementById('shader-canvas-ANIMATION_2');
+                  function syncSize() {
+                    const w = canvas.clientWidth || 1280;
+                    const h = canvas.clientHeight || 720;
+                    if (canvas.width !== w || canvas.height !== h) {
+                      canvas.width = w;
+                      canvas.height = h;
+                    }
+                  }
+                  if (typeof ResizeObserver !== 'undefined') {
+                    new ResizeObserver(syncSize).observe(canvas);
+                  }
+                  syncSize();
+                  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+                  if (!gl) return;
+                  const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+                  const fs = `precision highp float;
+uniform float u_time;
+uniform vec2 u_resolution;
+uniform vec2 u_mouse;
+float hash(vec2 p) {
+    p = fract(p * vec2(123.34, 456.21));
+    p += dot(p, p + 45.32);
+    return fract(p.x * p.y);
+}
+float noise(vec2 p) {
+    vec2 i = floor(p);
+    vec2 f = fract(p);
+    f = f * f * (3.0 - 2.0 * f);
+    float a = hash(i);
+    float b = hash(i + vec2(1.0, 0.0));
+    float c = hash(i + vec2(0.0, 1.0));
+    float d = hash(i + vec2(1.0, 1.0));
+    return mix(mix(a, b, f.x), mix(c, d, f.x), f.y);
+}
+float fbm(vec2 p) {
+    float v = 0.0;
+    float a = 0.5;
+    vec2 shift = vec2(100.0);
+    mat2 rot = mat2(cos(0.5), sin(0.5), -sin(0.5), cos(0.5));
+    for (int i = 0; i < 5; ++i) {
+        v += a * noise(p);
+        p = rot * p * 2.0 + shift;
+        a *= 0.5;
+    }
+    return v;
+}
+void main() {
+    vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+    vec2 p = (gl_FragCoord.xy * 2.0 - u_resolution.xy) / min(u_resolution.x, u_resolution.y);
+    float t = u_time * 0.18;
+    vec2 q = vec2(fbm(p + vec2(0.0, t * 0.5)), fbm(p + vec2(t * 0.3, 0.0)));
+    vec2 r = vec2(fbm(p + 3.0 * q + vec2(1.7, 9.2) + 0.15 * t), fbm(p + 3.0 * q + vec2(8.3, 2.8) + 0.126 * t));
+    float f = fbm(p + 4.0 * r);
+    vec3 colDeep = vec3(0.02, 0.04, 0.09);
+    vec3 colNavy = vec3(0.08, 0.22, 0.65);
+    vec3 colCyan = vec3(0.22, 0.74, 0.98);
+    vec3 colAurora = vec3(0.40, 0.88, 1.0);
+    vec3 col = mix(colDeep, colNavy, clamp(f * f * 2.5, 0.0, 1.0));
+    col = mix(col, colCyan, clamp(length(q) * f * 1.8, 0.0, 1.0));
+    col = mix(col, colAurora, clamp(r.x * r.y * 2.2, 0.0, 1.0));
+    float curtain = sin(p.x * 2.5 + sin(p.y * 3.0 + t * 2.0)) * 0.5 + 0.5;
+    curtain *= smoothstep(-1.2, 0.8, p.y);
+    col += colCyan * curtain * 0.25 * smoothstep(0.3, 0.8, f);
+
+    float vig = 1.0 - length(uv - 0.5) * 0.75;
+    col *= clamp(vig, 0.15, 1.0);
+    gl_FragColor = vec4(col, 1.0);
+}`;
+                  function cs(type, src) {
+                    const s = gl.createShader(type);
+                    gl.shaderSource(s, src);
+                    gl.compileShader(s);
+                    return s;
+                  }
+                  const prog = gl.createProgram();
+                  gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+                  gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+                  gl.linkProgram(prog);
+                  gl.useProgram(prog);
+                  const buf = gl.createBuffer();
+                  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+                  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+                  const pos = gl.getAttribLocation(prog, 'a_position');
+                  gl.enableVertexAttribArray(pos);
+                  gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+                  const uTime = gl.getUniformLocation(prog, 'u_time');
+                  const uRes = gl.getUniformLocation(prog, 'u_resolution');
+                  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+                  let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+                  window.addEventListener('mousemove', (event) => {
+                    const rect = canvas.getBoundingClientRect();
+                    if (rect.width && rect.height) {
+                      const nx = (event.clientX - rect.left) / rect.width;
+                      const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+                      mouse.x = nx * canvas.width;
+                      mouse.y = ny * canvas.height;
+                    }
+                  });
+                  function render(t) {
+                    if (typeof ResizeObserver === 'undefined') syncSize();
+                    gl.viewport(0, 0, canvas.width, canvas.height);
+                    if (uTime) gl.uniform1f(uTime, t * 0.001);
+                    if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+                    if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+                    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+                    requestAnimationFrame(render);
+                  }
+                  render(0);
+                })();
+            </script>
+          </div>
+
+          <!-- Ambient Blue Energy Pulses -->
+          <div
+            class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-secondary-container/25 rounded-full blur-[140px] pointer-events-none">
+          </div>
+          <div
+            class="absolute top-2/3 right-1/4 w-[420px] h-[420px] bg-primary-container/15 rounded-full blur-[120px] pointer-events-none">
+          </div>
+
+          <!-- Centered Hero Section -->
+          <section
+            class="relative z-10 flex flex-col items-center text-center px-gutter pt-space-xl pb-space-lg max-w-5xl mx-auto">
+
+            <!-- Floating Portrait with Cosmic Blue Glow Rings -->
+            <div class="relative group my-space-sm flex items-center justify-center">
+              <div
+                class="absolute -inset-6 rounded-full bg-gradient-to-tr from-primary-container via-secondary-container to-transparent opacity-40 blur-2xl group-hover:opacity-75 transition-all duration-700">
+              </div>
+              <div class="absolute -inset-3 rounded-full bg-primary/20 blur-md animate-pulse"></div>
+              <div class="absolute inset-0 rounded-full bg-secondary-container/30 blur-sm"></div>
+              <div
+                class="relative w-52 h-52 sm:w-60 sm:h-60 rounded-full overflow-hidden p-1 bg-gradient-to-b from-primary via-surface-container to-transparent shadow-[0_0_50px_rgba(56,189,248,0.4)]">
+                <img src="assets/profilepict.jpeg" alt="M. Rama Arief Akbar"
+                  class="w-full h-full rounded-full object-cover object-center" />
+              </div>
+            </div>
+
+            <!-- Primary Typographic Centerpiece -->
+            <div class="flex flex-col items-center mt-space-lg mb-space-md">
+              <h1
+                class="font-headline-xl text-headline-xl md:text-headline-xl text-headline-xl-mobile text-on-surface tracking-tight font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-on-surface via-on-surface to-on-surface-variant">
+                M. Rama Arief Akbar
+              </h1>
+              <p class="font-headline-sm text-headline-sm text-primary font-semibold mt-space-xs tracking-wide">
+                Machine Learning &amp; Internet of Things Enthusiast
+              </p>
+              <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-sm leading-relaxed">
+                Fresh Graduate Program Studi Teknik Telekomunikasi Politeknik Negeri Sriwijaya yang saat ini sedang
+                mengembangkan diri di bidang Machine Learning dan Internet of Things. Mampu bekerja
+                sama dalam tim, adaptif, dan memiliki inisiatif tinggi untuk terus belajar dan berkembang.
+              </p>
+            </div>
+
+            <!-- Quick Summary Metric Cards Grid -->
+            <div class="w-full grid grid-cols-2 md:grid-cols-4 gap-space-md mt-space-sm" id="system-metrics">
+              <div
+                class="bg-surface-container-low/70 backdrop-blur-md rounded-2xl p-space-md text-center shadow-lg hover:bg-surface-container/80 transition-all flex flex-col items-center">
+                <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Experience</span>
+                <span
+                  class="font-headline-md text-headline-md text-on-surface font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-on-surface to-primary">4</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Work & Organization</span>
+              </div>
+              <div
+                class="bg-surface-container-low/70 backdrop-blur-md rounded-2xl p-space-md text-center shadow-lg hover:bg-surface-container/80 transition-all flex flex-col items-center">
+                <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Projects</span>
+                <span
+                  class="font-headline-md text-headline-md text-on-surface font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-on-surface to-primary">3</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Projects</span>
+              </div>
+              <div
+                class="bg-surface-container-low/70 backdrop-blur-md rounded-2xl p-space-md text-center shadow-lg hover:bg-surface-container/80 transition-all flex flex-col items-center">
+                <span
+                  class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Achievements</span>
+                <span
+                  class="font-headline-md text-headline-md text-on-surface font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-on-surface to-primary">4</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Achievements</span>
+              </div>
+              <div
+                class="bg-surface-container-low/70 backdrop-blur-md rounded-2xl p-space-md text-center shadow-lg hover:bg-surface-container/80 transition-all flex flex-col items-center">
+                <span
+                  class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-1">Certificates</span>
+                <span
+                  class="font-headline-md text-headline-md text-on-surface font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-on-surface to-primary">3</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Certificates</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================== -->
+    <!-- SECTION: EXPERIENCE -->
+    <!-- ============================================== -->
+    <section id="section-experience" class="page-section">
+      <div class="flex flex-col w-full relative py-space-lg">
+
+        <!-- Section Header -->
+        <div class="mb-space-xl">
+          <div class="flex items-center gap-space-sm mb-space-sm">
+            <span class="status-badge text-green-400 bg-green-400/10 border border-green-400/20">Tracked since 2022 —
+              PRESENT</span>
+          </div>
+          <h1
+            class="font-headline-xl text-headline-xl md:text-headline-xl text-headline-lg-mobile font-extrabold text-on-surface">
+            Work &amp; Organization<br>Experience
+          </h1>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="flex items-center gap-space-xs mb-space-xl flex-wrap">
+          <button
+            class="filter-tab active px-space-md py-space-sm rounded-lg font-label-md text-label-md border border-outline-variant/30 transition-all cursor-pointer"
+            data-filter="all" data-filter-group="experience">All Experience</button>
+          <button
+            class="filter-tab px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant border border-transparent hover:border-outline-variant/30 transition-all cursor-pointer"
+            data-filter="work" data-filter-group="experience">Work Experience</button>
+          <button
+            class="filter-tab px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant border border-transparent hover:border-outline-variant/30 transition-all cursor-pointer"
+            data-filter="org" data-filter-group="experience">Organization &amp; Leadership</button>
+        </div>
+
+        <!-- Experience Cards Container -->
+        <div id="experience-cards" class="flex flex-col gap-space-lg">
+
+          <!-- ===== Experience Card 1 (Program Asah) ===== -->
+          <div class="exp-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg shadow-lg"
+            data-category="work">
+            <div class="flex flex-col md:flex-row gap-space-lg">
+              <div
+                class="w-full md:w-[200px] h-[180px] md:h-[200px] rounded-xl overflow-hidden flex-shrink-0 border border-outline-variant/30 bg-surface-container-lowest">
+                <img src="assets/experience/asah.png" alt="Program Asah - Dicoding &amp; Accenture"
+                  class="w-full h-full object-cover object-center hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex-1">
+                <div class="flex items-start justify-between flex-wrap gap-space-sm">
+                  <div>
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Pelatihan &amp;
+                      Studi Independen</span>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Machine Learning Cohort</h3>
+                    <div class="flex items-center gap-space-sm mt-space-xs">
+                      <span class="font-body-md text-body-md text-primary font-medium">Program Asah 2025 led by Dicoding
+                        in association with Accenture</span>
+                      <span class="text-outline">•</span>
+                      <span class="font-body-sm text-body-sm text-on-surface-variant">Path Machine Learning</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-space-xs bg-surface-container-high/60 px-3 py-1.5 rounded-lg">
+                    <span class="material-symbols-outlined text-primary text-[16px]">calendar_today</span>
+                    <span class="font-label-sm text-label-sm text-on-surface-variant">Aug 2025 - Jan 2026</span>
+                  </div>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-md leading-relaxed">
+                  Menyelesaikan pelatihan intensif Machine Learning pada Program Asah 2025 yang diselenggarakan
+                  oleh Dicoding berkolaborasi dengan Accenture. Mempelajari konsep dasar hingga tingkat lanjut machine
+                  learning dan deep learning, membangun proyek di setiap kelas, serta pengerjaan Capstone
+                  Project Machine Learning dengan studi kasus langsung dari perusahaan partner. Mendapatkan pengalaman
+                  sebagai ketua tim dalam pengerjaan Capstone Project dengan jobdesk mengoordinasi tim terhadap
+                  timeline, pencapaian progress dan jadwal konsultasi dengan mentor.
+                </p>
+                <div class="flex flex-wrap gap-space-sm mt-space-md">
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Artificial Intelligence</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Data Science</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===== Experience Card 2 (Telkom) ===== -->
+          <div class="exp-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg shadow-lg"
+            data-category="work">
+            <div class="flex flex-col md:flex-row gap-space-lg">
+              <div
+                class="w-full md:w-[200px] h-[180px] md:h-[200px] rounded-xl overflow-hidden flex-shrink-0 border border-outline-variant/30 bg-surface-container-lowest">
+                <img src="assets/experience/1_magang.jpeg" alt="Kerja Praktek PT Telkom Indonesia"
+                  class="w-full h-full object-cover object-top hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex-1">
+                <div class="flex items-start justify-between flex-wrap gap-space-sm">
+                  <div>
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Internship</span>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Kerja Praktek - Area Network
+                      Division</h3>
+                    <div class="flex items-center gap-space-sm mt-space-xs">
+                      <span class="font-body-md text-body-md text-primary font-medium">PT. Telkom Indonesia Witel
+                        Sumatera Selatan</span>
+                      <span class="text-outline">•</span>
+                      <span class="font-body-sm text-body-sm text-on-surface-variant">Divisi Area Network</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-space-xs bg-surface-container-high/60 px-3 py-1.5 rounded-lg">
+                    <span class="material-symbols-outlined text-primary text-[16px]">calendar_today</span>
+                    <span class="font-label-sm text-label-sm text-on-surface-variant">Feb 2025 — Jul 2025</span>
+                  </div>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-md leading-relaxed">
+                  Mempelajari sistem jaringan internet dan sebarannya di area Sumatera Selatan. Mempelajari komponen
+                  jaringan internet dan cara kerjanya. Membantu penyambungan kabel fiber optik menggunakan splicer
+                  serta pengukuran noise kabel dengan alat OTDR. Membuat model klasifikasi menggunakan algoritma K-Means
+                  dan model regresi menggunakan algoritma Random Forest untuk mendeteksi Anomali dari hasil pengukuran
+                  kabel fiber optik dari OTDR sebagai tugas akhir Kerja Praktek yang bersifat kontributif bagi
+                  perusahaan.
+                </p>
+                <div class="flex flex-wrap gap-space-sm mt-space-md">
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Random Forest</span>
+                  <span class="tech-tag">K-Means</span>
+                  <span class="tech-tag">Fiber Optik</span>
+                  <span class="tech-tag">OTDR</span>
+                  <span class="tech-tag">Anomaly Detection</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===== Experience Card 3 (PLC) ===== -->
+          <div class="exp-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg shadow-lg"
+            data-category="work">
+            <div class="flex flex-col md:flex-row gap-space-lg">
+              <div
+                class="w-full md:w-[200px] h-[180px] md:h-[200px] rounded-xl overflow-hidden flex-shrink-0 border border-outline-variant/30 bg-surface-container-lowest">
+                <img src="assets/experience/2__plc.jpeg" alt="Pelatihan Bersertifikasi Competitive Fund Vokasi"
+                  class="w-full h-full object-cover object-top hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex-1">
+                <div class="flex items-start justify-between flex-wrap gap-space-sm">
+                  <div>
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Pelatihan
+                      Bersertifikasi</span>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Competitive Fund Vokasi Tahun
+                      2024</h3>
+                    <div class="flex items-center gap-space-sm mt-space-xs">
+                      <span class="font-body-md text-body-md text-primary font-medium">PT. Nidha Cipta Edotama</span>
+                      <span class="text-outline">•</span>
+                      <span class="font-body-sm text-body-sm text-on-surface-variant">Industrial IoT &amp; PLC</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-space-xs bg-surface-container-high/60 px-3 py-1.5 rounded-lg">
+                    <span class="material-symbols-outlined text-primary text-[16px]">calendar_today</span>
+                    <span class="font-label-sm text-label-sm text-on-surface-variant">Nov 2024</span>
+                  </div>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-md leading-relaxed">
+                  Belajar mengenai dasar-dasar PLC dan Industrial IoT. Secara langsung membangun proyek IoT
+                  menggunakan PLC, mulai dari mengintegrasikan sensor hingga AI Integrated Device.
+                </p>
+                <div class="flex flex-wrap gap-space-sm mt-space-md">
+                  <span class="tech-tag">PLC</span>
+                  <span class="tech-tag">Industrial IoT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===== Experience Card 4 (ARCOS) ===== -->
+          <div class="exp-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg shadow-lg"
+            data-category="org">
+            <div class="flex flex-col md:flex-row gap-space-lg">
+              <div
+                class="w-full md:w-[200px] h-[180px] md:h-[200px] rounded-xl overflow-hidden flex-shrink-0 border border-outline-variant/30 bg-surface-container-lowest">
+                <img src="assets/experience/3_arcos.jpeg" alt="ARCOS Engineering & Student Mentoring"
+                  class="w-full h-full object-cover object-center hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex-1">
+                <div class="flex items-start justify-between flex-wrap gap-space-sm">
+                  <div>
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Organization &amp;
+                      Event</span>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Robotic Programmer
+                    </h3>
+                    <div class="flex items-center gap-space-sm mt-space-xs">
+                      <span class="font-body-md text-body-md text-primary font-medium">Komunitas ARCoS Politeknik
+                        Negeri Sriwijaya</span>
+                      <span class="text-outline">•</span>
+                      <span class="font-body-sm text-body-sm text-on-surface-variant">Divisi KRTMI</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-space-xs bg-surface-container-high/60 px-3 py-1.5 rounded-lg">
+                    <span class="material-symbols-outlined text-primary text-[16px]">calendar_today</span>
+                    <span class="font-label-sm text-label-sm text-on-surface-variant">Feb 2023 — Des 2024</span>
+                  </div>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-md leading-relaxed">
+                  Menjadi bagian dari tim Programmer Robot di divisi KRTMI Komunitas ARCoS. Bertugas membantu melakukan
+                  pemrograman pada robot yang akan mengikuti kompetisi robotik tingkat nasional. Selain itu juga turut
+                  andil dalam beberapa event yang diadakan komunitas, salah satunya sebagai Pendamping Workshop IoT di
+                  event Faircos 2023 yang ditugaskan untuk mendampingi dan mengajarkan peserta workshop membangun sistem
+                  IoT dengan esp32.
+                </p>
+                <div class="flex flex-wrap gap-space-sm mt-space-md">
+                  <span class="tech-tag">IoT</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Arduino</span>
+                  <span class="tech-tag">ESP32</span>
+                  <span class="tech-tag">Workshop Trainer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Card 4 (Hidden until 4th experience asset is provided)
+          <div class="exp-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg shadow-lg"
+            data-category="org">
+            <div class="flex flex-col md:flex-row gap-space-lg">
+              <div class="w-full md:w-[200px] h-[180px] md:h-[200px] rounded-xl img-placeholder flex-shrink-0">
+                <span>EXPERIENCE IMAGE 4<br>200×200</span>
+              </div>
+              <div class="flex-1">
+                ...
+              </div>
+            </div>
+          </div>
+          -->
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================== -->
+    <!-- SECTION: PROJECTS -->
+    <!-- ============================================== -->
+    <section id="section-projects" class="page-section">
+      <div class="flex flex-col w-full relative py-space-lg">
+
+        <!-- Section Header -->
+        <div class="text-center mb-space-xl max-w-3xl mx-auto">
+          <div class="flex items-center justify-center gap-space-sm mb-space-md">
+            <span class="status-badge text-green-400 bg-green-400/10 border border-green-400/20">Tracked since 2022 —
+              PRESENT</span>
+          </div>
+          <h1
+            class="font-headline-xl text-headline-xl md:text-headline-xl text-headline-lg-mobile font-extrabold text-on-surface">
+            Featured Projects &amp; <span class="text-primary">Architecture</span>
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mt-space-md leading-relaxed">
+            Showcasing production-grade applications, open source contributions, and deep-tech prototypes designed for
+            scale, resilience, and microsecond telemetry.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="flex items-center justify-center gap-space-xs mb-space-xl flex-wrap">
+          <button
+            class="filter-tab active px-space-lg py-space-sm rounded-xl font-label-md text-label-md border border-outline-variant/30 transition-all cursor-pointer flex items-center gap-2"
+            data-filter="all" data-filter-group="projects">
+            <span class="material-symbols-outlined text-[16px]">grid_view</span>All Projects
+          </button>
+          <button
+            class="filter-tab px-space-lg py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant border border-transparent hover:border-outline-variant/30 transition-all cursor-pointer flex items-center gap-2"
+            data-filter="ai" data-filter-group="projects">
+            <span class="material-symbols-outlined text-[16px]">psychology</span>AI &amp; ML
+          </button>
+          <button
+            class="filter-tab px-space-lg py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant border border-transparent hover:border-outline-variant/30 transition-all cursor-pointer flex items-center gap-2"
+            data-filter="cloud" data-filter-group="projects">
+            <span class="material-symbols-outlined text-[16px]">cloud</span>IoT
+          </button>
+          <button
+            class="filter-tab px-space-lg py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant border border-transparent hover:border-outline-variant/30 transition-all cursor-pointer flex items-center gap-2"
+            data-filter="web" data-filter-group="projects">
+            <span class="material-symbols-outlined text-[16px]">desktop_windows</span>Web Platforms
+          </button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="projects-grid" class="flex flex-col gap-space-xl">
+          <!-- ===== Featured Project (Full Width) ===== -->
+          <div class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl"
+            data-category="ai web cloud">
+            <div class="flex flex-col lg:flex-row">
+              <div
+                class="w-full lg:w-1/2 h-[280px] lg:h-[360px] overflow-hidden bg-surface-container-lowest relative group">
+                <img src="assets/projects/1_lora_collage.jpg"
+                  alt="LoRa32 Hydroponic Monitoring System & Web Dashboard Collage"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500" />
+                <div
+                  class="absolute bottom-3 left-3 flex items-center gap-1.5 bg-surface-container/90 backdrop-blur px-2.5 py-1 rounded-lg">
+                  <span class="material-symbols-outlined text-primary text-[14px]">sensors</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">LoRa32 + LightGBM AI + MQTT</span>
+                </div>
+              </div>
+              <div class="p-space-lg flex flex-col justify-center flex-1">
+                <div class="flex flex-wrap gap-space-sm mb-space-md">
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">IoT Monitoring</span>
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">AI Powered</span>
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">Latest</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface">LoRa32 Hydroponic Monitoring System</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-md leading-relaxed">
+                  Sistem pemantauan hidroponik jarak jauh menggunakan node Heltec LoRa32 V3 ditenagai Meshtastic yang
+                  terhubung ke platform web dashboard. Data sensor real-time dikumpulkan dan ditampilkan
+                  memungkinkan pemantauan kondisi lingkungan dan performa sistem. Ditenagai model
+                  klasifikasi LightGBM yang menampilkan kualitas lingkungan kebun berdasarkan data sensor.
+                </p>
+                <div class="flex items-center flex-wrap gap-space-sm mt-space-lg">
+                  <span class="font-label-sm text-label-sm text-outline">Stack:</span>
+                  <span class="tech-tag">LoRa</span>
+                  <span class="tech-tag">LightGBM</span>
+                  <span class="tech-tag">Sistem Monitoring</span>
+                  <span class="tech-tag">Meshtastic</span>
+                  <span class="tech-tag">esp32</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Two-Column Project Row -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+
+            <!-- ===== Project Card 2 ===== -->
+            <div class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl"
+              data-category="ai web">
+              <div class="w-full h-[220px] overflow-hidden bg-surface-container-lowest relative group">
+                <img src="assets/projects/2__chem.png" alt="ChemFind - Explore Chemical Discoverment"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-500" />
+                <div
+                  class="absolute bottom-3 left-3 flex items-center gap-1.5 bg-surface-container/90 backdrop-blur px-2.5 py-1 rounded-lg">
+                  <span class="material-symbols-outlined text-primary text-[14px]">science</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Agentic AI Platform</span>
+                </div>
+              </div>
+              <div class="p-space-lg">
+                <div class="flex flex-wrap gap-space-sm mb-space-sm">
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">Agentic AI</span>
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">Web Development</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface">ChemFind : AI Agent Powered Drugs
+                  Discovery</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+                  Membangun sistem website yang ditenagai Agentic AI untuk melakukan pencarian senyawa kimia yang
+                  digunakan untuk obat-obatan. Dimana dalam sistem ini pengguna dapat mencari senyawa kimia yang
+                  memungkinkan untuk obat-obatan dengan input berupa beberapa kriteria senyawa, dan akan menghasilkan
+                  baris SMILES beberapa senyawa, beserta informasi seperti tampilan rangkaian senyawa dan
+                  justifikasinya.
+                </p>
+                <div class="flex flex-wrap gap-space-sm mt-space-md">
+                  <span class="tech-tag">Agentic AI</span>
+                  <span class="tech-tag">Gemini AI</span>
+                  <span class="tech-tag">Web Development</span>
+                  <span class="tech-tag">ChemFind</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Project Card 3 ===== -->
+            <div class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl"
+              data-category="cloud">
+              <div class="w-full h-[220px] overflow-hidden bg-surface-container-lowest relative group">
+                <img src="assets/projects/3_plc.png" alt="PLC Automation & Training System"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-500" />
+                <div
+                  class="absolute bottom-3 left-3 flex items-center gap-1.5 bg-surface-container/90 backdrop-blur px-2.5 py-1 rounded-lg">
+                  <span class="material-symbols-outlined text-primary text-[14px]">precision_manufacturing</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Industrial Automation / PLC</span>
+                </div>
+              </div>
+              <div class="p-space-lg">
+                <div class="flex flex-wrap gap-space-sm mb-space-sm">
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">PLC</span>
+                  <span class="tech-tag bg-primary/10 border-primary/30 text-primary">Industrial IoT</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface">PLC IoT Kit</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+                  Proyek Industrial IoT berupa IoT Kit PLC yang terintegrasi beberapa Sensor dan device. Penggunaan PLC
+                  sebagai upgrade dari modul esp32 atau Arduino sebagai Integrasi IoT di tahap Industrial.
+                </p>
+                <div class="flex flex-wrap gap-space-sm mt-space-md">
+                  <span class="tech-tag">Industrial IoT</span>
+                  <span class="tech-tag">PLC</span>
+                  <span class="tech-tag">MQTT</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Row 3 (Hidden until additional projects are provided)
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+            ...
+          </div>
+          -->
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================== -->
+    <!-- SECTION: ACHIEVEMENTS -->
+    <!-- ============================================== -->
+    <section id="section-achievements" class="page-section">
+      <div class="flex flex-col w-full relative py-space-lg">
+
+        <!-- Section Header -->
+        <div class="mb-space-xl">
+          <div class="flex items-center gap-space-sm mb-space-sm">
+            <span class="status-badge text-green-400 bg-green-400/10 border border-green-400/20">HONORS &amp;
+              CREDENTIALS</span>
+          </div>
+          <h1
+            class="font-headline-xl text-headline-xl md:text-headline-xl text-headline-lg-mobile font-extrabold text-on-surface">
+            Achievements &amp; Professional<br>Certifications
+          </h1>
+        </div>
+
+        <!-- Featured Honors & Awards -->
+        <div class="mb-space-xl">
+          <div class="flex items-center justify-between mb-space-lg">
+            <h2 class="font-headline-md text-headline-md text-on-surface font-bold">Featured Honors &amp; Awards</h2>
+            <span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Competitive
+              Excellence</span>
+          </div>
+
+          <!-- Awards Grid: 4 Honors in 2x2 Grid Layout -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+
+            <!-- Award Card 1 (Tag 1: Alumni Terbaik) -->
+            <div
+              class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl flex flex-col">
+              <div class="w-full h-[240px] overflow-hidden relative bg-surface-container-lowest group">
+                <img src="assets/achievement/1_terbaik.png" alt="Piagam Alumni Terbaik Jurusan Teknik Elektro Polsri"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-500" />
+                <div class="absolute top-3 left-3">
+                  <span class="status-badge text-yellow-300 bg-yellow-400/10 border border-yellow-400/20 text-[10px]">🏆
+                    ALUMNI TERBAIK</span>
+                </div>
+                <span
+                  class="absolute top-3 right-3 font-label-sm text-label-sm text-on-surface-variant bg-surface-container/80 backdrop-blur px-2 py-0.5 rounded">POLSRI
+                  2026</span>
+              </div>
+              <div class="p-space-lg flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start justify-between gap-space-sm">
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface">Alumni Terbaik Jurusan Teknik Elektro
+                    </h3>
+                    <span class="font-label-sm text-label-sm text-outline whitespace-nowrap">IPK 3.79</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed">
+                    Dianugerahi Piagam Penghargaan Direktur Politeknik Negeri Sriwijaya sebagai Alumni Terbaik Jurusan
+                    Teknik Elektro (D-IV Teknik Telekomunikasi) pada Wisuda ke-42 dengan predikat Dengan Pujian.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Award Card 2 (Tag 2: Publikasi Ilmiah) -->
+            <div
+              class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl flex flex-col">
+              <div class="w-full h-[240px] overflow-hidden relative bg-surface-container-lowest group">
+                <img src="assets/achievement/2_publikasi.jpg" alt="Penerimaan Naskah Publikasi Jurnal Algoritma"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-500" />
+                <div class="absolute top-3 left-3">
+                  <span class="status-badge text-sky-300 bg-sky-400/10 border border-sky-400/20 text-[10px]">📄
+                    PUBLIKASI JURNAL</span>
+                </div>
+                <span
+                  class="absolute top-3 right-3 font-label-sm text-label-sm text-on-surface-variant bg-surface-container/80 backdrop-blur px-2 py-0.5 rounded">ITG
+                  2026</span>
+              </div>
+              <div class="p-space-lg flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start justify-between gap-space-sm">
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface">Publikasi Artikel Jurnal Ilmiah</h3>
+                    <span class="font-label-sm text-label-sm text-outline whitespace-nowrap">E-ISSN: 2302-7339</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed">
+                    Penerimaan naskah artikel ilmiah berjudul <em>"Klasifikasi Kualitas Lingkungan Kebun Hidroponik
+                      Menggunakan Model LightGBM pada Sistem Monitoring Berbasis Website"</em> pada Jurnal Algoritma
+                    Vol. 23 No. 2 Tahun 2026.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Award Card 3 (Tag 3: Expo Riset) -->
+            <div
+              class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl flex flex-col">
+              <div class="w-full h-[240px] overflow-hidden relative bg-surface-container-lowest group">
+                <img src="assets/achievement/3_penelitian.jpeg"
+                  alt="Expo Hasil Penelitian dan Pengabdian Kepada Masyarakat 2026"
+                  class="w-full h-full object-cover object-center group-hover:scale-105 transition-all duration-500" />
+                <div class="absolute top-3 left-3">
+                  <span
+                    class="status-badge text-emerald-300 bg-emerald-400/10 border border-emerald-400/20 text-[10px]">🔬
+                    EXPO RISET</span>
+                </div>
+                <span
+                  class="absolute top-3 right-3 font-label-sm text-label-sm text-on-surface-variant bg-surface-container/80 backdrop-blur px-2 py-0.5 rounded">EXPO
+                  2026</span>
+              </div>
+              <div class="p-space-lg flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start justify-between gap-space-sm">
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface">Expo Hasil Penelitian &amp; Pengabdian
+                    </h3>
+                    <span class="font-label-sm text-label-sm text-outline whitespace-nowrap">RISET TERAPAN</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed">
+                    Mempresentasikan hasil riset dan produk teknologi terapan di Expo Penelitian dan Pengabdian Kepada
+                    Masyarakat bertema <em>"Dari Kampus untuk Teknologi Berdampak"</em>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Award Card 4 (Tag 4: Finalis Kompetisi) -->
+            <div
+              class="project-card bg-surface-container/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl flex flex-col">
+              <div class="w-full h-[240px] overflow-hidden relative bg-surface-container-lowest group">
+                <img src="assets/achievement/4_finalis.jpeg" alt="Polytechnic Creative Festival - Finalis"
+                  class="w-full h-full object-cover object-center group-hover:scale-105 transition-all duration-500" />
+                <div class="absolute top-3 left-3">
+                  <span class="status-badge text-purple-300 bg-purple-400/10 border border-purple-400/20 text-[10px]">🥇
+                    FINALIS NASIONAL</span>
+                </div>
+                <span
+                  class="absolute top-3 right-3 font-label-sm text-label-sm text-on-surface-variant bg-surface-container/80 backdrop-blur px-2 py-0.5 rounded">BAKORMA</span>
+              </div>
+              <div class="p-space-lg flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start justify-between gap-space-sm">
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface">Finalis Polytechnic Creative Festival
+                    </h3>
+                    <span class="font-label-sm text-label-sm text-outline whitespace-nowrap">KEMENDIKBUDRISTEK</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed">
+                    Terpilih sebagai finalis lomba News Writer tingkat nasional dalam ajang kompetisi Polytechnic
+                    Creative Festival 2023 yang diselenggarakan di Politeknik Negeri Media Kreatif oleh Bakorma dan
+                    Kemendikbudristek.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Industry-Standard Certifications -->
+        <div class="mt-space-xl">
+          <div class="flex items-center justify-between mb-space-lg flex-wrap gap-space-sm">
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-primary text-[24px]">verified</span>
+              <h2 class="font-headline-md text-headline-md text-on-surface font-bold">Industry-Standard Certifications
+              </h2>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Independently proctored credentials &amp;
+                AI / Machine Learning competencies</span>
+              <div class="flex items-center gap-space-xs bg-surface-container-high/60 px-3 py-1.5 rounded-lg">
+                <span class="font-label-sm text-label-sm text-on-surface-variant">Active Credentials</span>
+                <span class="font-label-sm text-label-sm text-primary font-bold">3 of 3 Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Grid (3 Verified Credentials) -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+
+            <!-- ===== Cert Card 1 (Tag 1: Machine Learning Pemula) ===== -->
+            <div class="cert-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg flex flex-col">
+              <div
+                class="w-full h-40 rounded-xl overflow-hidden mb-space-md border border-outline-variant/30 bg-surface-container-lowest group">
+                <img src="assets/certification/1_mlp.png" alt="Dicoding Belajar Machine Learning untuk Pemula"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex items-start justify-between mb-space-sm">
+                <span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Dicoding
+                  Indonesia</span>
+                <span
+                  class="status-badge text-green-400 bg-green-400/10 border border-green-400/20 text-[10px]">ACTIVE</span>
+              </div>
+              <h4 class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-snug">Belajar Machine
+                Learning untuk Pemula</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed flex-1">
+                Supervised &amp; unsupervised learning, evaluasi model, feature engineering, data preprocessing, dan
+                implementasi algoritma klasifikasi machine learning.
+              </p>
+              <div class="mt-space-md pt-space-md border-t border-outline-variant/20">
+                <div class="flex justify-between font-label-sm text-label-sm text-outline mb-1">
+                  <span>ID:</span>
+                  <span class="text-on-surface-variant font-mono">QLZ9671R7Z5D</span>
+                </div>
+                <div class="flex justify-between font-label-sm text-label-sm text-outline">
+                  <span>VALIDITY:</span>
+                  <span class="text-on-surface-variant">2025 — 2028</span>
+                </div>
+              </div>
+              <a href="https://www.dicoding.com/certificates/QLZ9671R7Z5D" target="_blank" rel="noopener noreferrer"
+                class="mt-space-md w-full py-2 rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1.5">
+                VERIFY BADGE <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+              </a>
+            </div>
+
+            <!-- ===== Cert Card 2 (Tag 2: Deep Learning) ===== -->
+            <div class="cert-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg flex flex-col">
+              <div
+                class="w-full h-40 rounded-xl overflow-hidden mb-space-md border border-outline-variant/30 bg-surface-container-lowest group">
+                <img src="assets/certification/2_dl.png" alt="Dicoding Belajar Fundamental Deep Learning"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex items-start justify-between mb-space-sm">
+                <span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Dicoding
+                  Indonesia</span>
+                <span
+                  class="status-badge text-green-400 bg-green-400/10 border border-green-400/20 text-[10px]">ACTIVE</span>
+              </div>
+              <h4 class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-snug">Belajar Fundamental
+                Deep Learning</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed flex-1">
+                Deep neural network architecture, Multilayer Perceptron, Convolutional Neural Networks (CNN),
+                regularisasi, dan optimasi model menggunakan framework TensorFlow &amp; Keras.
+              </p>
+              <div class="mt-space-md pt-space-md border-t border-outline-variant/20">
+                <div class="flex justify-between font-label-sm text-label-sm text-outline mb-1">
+                  <span>ID:</span>
+                  <span class="text-on-surface-variant font-mono">L4PQ27W6OZO1</span>
+                </div>
+                <div class="flex justify-between font-label-sm text-label-sm text-outline">
+                  <span>VALIDITY:</span>
+                  <span class="text-on-surface-variant">2025 — 2028</span>
+                </div>
+              </div>
+              <a href="https://www.dicoding.com/certificates/L4PQ27W6OZO1" target="_blank" rel="noopener noreferrer"
+                class="mt-space-md w-full py-2 rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1.5">
+                VERIFY BADGE <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+              </a>
+            </div>
+
+            <!-- ===== Cert Card 3 (Tag 3: Sistem Machine Learning) ===== -->
+            <div class="cert-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg flex flex-col">
+              <div
+                class="w-full h-40 rounded-xl overflow-hidden mb-space-md border border-outline-variant/30 bg-surface-container-lowest group">
+                <img src="assets/certification/3_sml.png" alt="Dicoding Membangun Sistem Machine Learning"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-all duration-300" />
+              </div>
+              <div class="flex items-start justify-between mb-space-sm">
+                <span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Dicoding
+                  Indonesia</span>
+                <span
+                  class="status-badge text-green-400 bg-green-400/10 border border-green-400/20 text-[10px]">ACTIVE</span>
+              </div>
+              <h4 class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-snug">Membangun Sistem
+                Machine Learning</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm leading-relaxed flex-1">
+                End-to-end MLOps pipeline, model serving, automated data ingestion &amp; validation, deployment
+                microservice, dan monitoring performa model inference di lingkungan produksi.
+              </p>
+              <div class="mt-space-md pt-space-md border-t border-outline-variant/20">
+                <div class="flex justify-between font-label-sm text-label-sm text-outline mb-1">
+                  <span>ID:</span>
+                  <span class="text-on-surface-variant font-mono">53XEK7EMKXRN</span>
+                </div>
+                <div class="flex justify-between font-label-sm text-label-sm text-outline">
+                  <span>VALIDITY:</span>
+                  <span class="text-on-surface-variant">2025 — 2028</span>
+                </div>
+              </div>
+              <a href="https://www.dicoding.com/certificates/53XEK7EMKXRN" target="_blank" rel="noopener noreferrer"
+                class="mt-space-md w-full py-2 rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1.5">
+                VERIFY BADGE <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================== -->
+    <!-- SECTION: CONTACT -->
+    <!-- ============================================== -->
+    <section id="section-contact" class="page-section">
+      <div class="flex flex-col w-full relative py-space-lg">
+
+        <!-- Section Header -->
+        <div class="mb-space-xl">
+          <div class="w-3 h-3 rounded-full bg-primary mb-space-sm"></div>
+          <h1
+            class="font-headline-xl text-headline-xl md:text-headline-xl text-headline-lg-mobile font-extrabold text-on-surface">
+            Get in Touch
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mt-space-md leading-relaxed max-w-4xl">
+            Whether you have an ambitious software engineering project, a speaking invitation, or want to collaborate,
+            let's
+            connect.
+          </p>
+        </div>
+
+        <!-- Contact Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+
+          <!-- LinkedIn Card -->
+          <div class="contact-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg">
+            <div class="flex items-start gap-space-md mb-space-md">
+              <div class="w-12 h-12 rounded-xl bg-[#0A66C2]/20 flex items-center justify-center flex-shrink-0">
+                <span class="text-[#0A66C2] font-bold text-lg">in</span>
+              </div>
+              <div>
+                <div class="flex items-center gap-space-sm flex-wrap">
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">Connect on LinkedIn</h3>
+                </div>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Direct professional updates,
+                  engineering articles, and enterprise networking.</p>
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/mramaariefakbar/" target="_blank" rel="noopener noreferrer"
+              class="block w-full text-center py-3 rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-all font-label-md text-label-md">
+              View Profile <span class="material-symbols-outlined text-[14px] align-middle">north_east</span>
+            </a>
+          </div>
+
+          <!-- Email Card -->
+          <div class="contact-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg">
+            <div class="flex items-start gap-space-md mb-space-md">
+              <div class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
+                <span class="material-symbols-outlined text-primary text-[24px]">mail</span>
+              </div>
+              <div>
+                <div class="flex items-center gap-space-sm flex-wrap">
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">Send via Gmail / Email</h3>
+                </div>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Reach out directly for architectural
+                  consultation or tech relays.</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-space-sm">
+              <a href="mailto:007ramaarief@gmail.com"
+                class="block text-center py-3 rounded-lg bg-gradient-to-r from-sky-400 via-blue-600 to-indigo-600 text-white hover:opacity-90 transition-all font-label-md text-label-md flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-[16px]">edit</span>Compose Email
+              </a>
+              <button onclick="navigator.clipboard.writeText('007ramaarief@gmail.com')"
+                class="block text-center py-3 rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-all font-label-md text-label-md flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-[16px]">content_copy</span>Copy Address
+              </button>
+            </div>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="contact-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg">
+            <div class="flex items-start gap-space-md mb-space-md">
+              <div class="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center flex-shrink-0">
+                <span class="material-symbols-outlined text-green-400 text-[24px]">call</span>
+              </div>
+              <div>
+                <div class="flex items-center gap-space-sm flex-wrap">
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">Call / WhatsApp</h3>
+                </div>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Instant messaging &amp; urgent relays
+                  regarding production incidents.</p>
+              </div>
+            </div>
+            <a href="https://wa.me/628994450163" target="_blank" rel="noopener noreferrer"
+              class="block w-full text-center py-3 rounded-lg bg-surface-container-high/60 text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-all font-label-md text-label-md flex items-center justify-center gap-1.5">
+              <span class="material-symbols-outlined text-[16px]">chat</span>WhatsApp
+            </a>
+          </div>
+
+          <!-- Resume / CV Card -->
+          <div class="contact-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg">
+            <div class="flex items-start gap-space-md mb-space-md">
+              <div class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
+                <span class="material-symbols-outlined text-primary text-[24px]">description</span>
+              </div>
+              <div>
+                <div class="flex items-center gap-space-sm flex-wrap">
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">Download Full CV / Resume</h3>
+                </div>
+                <div class="flex items-center gap-space-sm mt-1 flex-wrap">
+                  <span class="font-label-sm text-label-sm text-outline flex items-center gap-1"><span
+                      class="material-symbols-outlined text-[14px]">picture_as_pdf</span>PDF Format</span>
+                  <span class="text-outline">•</span>
+                  <span class="font-label-sm text-label-sm text-outline">1 MB</span>
+                  <span class="text-outline">•</span>
+                  <span class="font-label-sm text-label-sm text-primary font-bold">Updated 2026</span>
+                </div>
+              </div>
+            </div>
+            <a href="assets/CV M. RAMA ARIEF AKBAR.pdf" download="CV M. RAMA ARIEF AKBAR.pdf"
+              class="block w-full text-center py-3 rounded-lg bg-gradient-to-r from-sky-400 via-blue-600 to-indigo-600 text-white hover:opacity-90 transition-all font-label-md text-label-md flex items-center justify-center gap-1.5">
+              <span class="material-symbols-outlined text-[16px]">download</span>Download CV
+            </a>
+          </div>
+        </div>
+
+        <!-- Location Card -->
+        <div class="contact-card bg-surface-container/60 backdrop-blur-md rounded-2xl p-space-lg mt-space-lg max-w-xl">
+          <div class="flex items-center gap-space-sm mb-space-xs">
+            <span class="material-symbols-outlined text-primary text-[20px]">public</span>
+            <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Primary Station</span>
+          </div>
+          <h3 class="font-headline-md text-headline-md text-on-surface font-bold">Palembang, Indonesia</h3>
+          <p class="font-label-md text-label-md text-outline mt-space-xs">
+            Timezone: <span class="text-on-surface-variant">GMT+7 (WIB)</span> • <span class="text-primary">Remote &amp;
+              Hybrid Friendly</span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================== -->
+  <!-- FOOTER -->
+  <!-- ============================================== -->
+  <footer
+    class="relative z-10 w-full bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-1px_16px_rgba(0,0,0,0.3)] mt-space-xl">
+    <div
+      class="max-w-[1280px] mx-auto px-gutter py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md">
+      <div class="flex flex-col items-center md:items-start gap-1">
+        <span class="font-body-sm text-body-sm text-on-surface-variant">© 2026 M. Rama Arief Akbar.</span>
+      </div>
+      <div class="flex items-center gap-space-lg">
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors"
+          href="https://www.linkedin.com/in/mramaariefakbar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors"
+          href="https://github.com/ramaarff" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors"
+          href="mailto:007ramaarief@gmail.com">Email</a>
+        <a class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:bg-secondary-container hover:text-on-secondary transition-all font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1.5"
+          href="assets/CV M. RAMA ARIEF AKBAR.pdf" download="CV M. RAMA ARIEF AKBAR.pdf">
+          <span class="material-symbols-outlined text-[16px]">description</span>Resume
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================== -->
+  <!-- JAVASCRIPT: Navigation & Filtering -->
+  <!-- ============================================== -->
+  <script>
+    (function () {
+      // ============================
+      // Tab Navigation (SPA-style)
+      // ============================
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('.page-section');
+
+      function switchSection(sectionId) {
+        // Hide all sections
+        sections.forEach(s => s.classList.remove('active'));
+        // Show target section
+        const target = document.getElementById('section-' + sectionId);
+        if (target) target.classList.add('active');
+
+        // Update nav link styles
+        navLinks.forEach(link => {
+          if (link.dataset.section === sectionId) {
+            link.classList.remove('text-on-surface-variant', 'hover:text-on-surface', 'font-body-sm', 'text-body-sm');
+            link.classList.add('bg-primary-container', 'text-on-primary-container', 'font-medium', 'shadow-[0_0_12px_rgba(56,189,248,0.3)]');
+          } else {
+            link.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-medium', 'shadow-[0_0_12px_rgba(56,189,248,0.3)]');
+            link.classList.add('text-on-surface-variant', 'hover:text-on-surface', 'font-body-sm', 'text-body-sm');
+          }
+        });
+
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          switchSection(link.dataset.section);
+        });
+      });
+
+      // ============================
+      // Filter Tabs (Experience & Projects)
+      // ============================
+      const filterTabs = document.querySelectorAll('.filter-tab');
+
+      filterTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const group = tab.dataset.filterGroup;
+          const filter = tab.dataset.filter;
+
+          // Update active state within same group
+          document.querySelectorAll(`.filter-tab[data-filter-group="${group}"]`).forEach(t => {
+            t.classList.remove('active');
+          });
+          tab.classList.add('active');
+
+          // Filter cards
+          let container;
+          if (group === 'experience') {
+            container = document.getElementById('experience-cards');
+          } else if (group === 'projects') {
+            container = document.getElementById('projects-grid');
+          }
+
+          if (container) {
+            const cards = container.querySelectorAll('[data-category]');
+            cards.forEach(card => {
+              const categories = card.dataset.category.split(/\s+/);
+              if (filter === 'all' || categories.includes(filter)) {
+                card.style.display = '';
+                card.style.animation = 'fade-in-up 0.4s ease-out both';
+              } else {
+                card.style.display = 'none';
+              }
+            });
+
+            // For projects, also handle parent grid containers
+            if (group === 'projects') {
+              const gridRows = container.querySelectorAll('.grid');
+              gridRows.forEach(row => {
+                const visibleCards = row.querySelectorAll('[data-category]:not([style*="display: none"])');
+                if (visibleCards.length === 0) {
+                  row.style.display = 'none';
+                } else {
+                  row.style.display = '';
+                }
+              });
+            }
+          }
+        });
+      });
+
+      // ============================
+      // Scroll-triggered animations
+      // ============================
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.style.animation = 'fade-in-up 0.6s ease-out both';
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.exp-card, .project-card, .cert-card, .contact-card').forEach(card => {
+          observer.observe(card);
+        });
+      }
+    })();
+  </script>
+
+</body>
+
+</html>
